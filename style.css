@@ -65,7 +65,36 @@
 	background-repeat: no-repeat;
 	background-position: right center;
 }
+#content {
+	width: 100%;
+	color: #424242;
+}
 
+#date {
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 6px 67px 0 0;
+}
+
+#news {
+	height: 350px;
+	width: 620px;
+	padding-left: 50px;
+	position: relative;
+	top: -10px;
+}
+
+#overtext {
+  position: absolute;
+  color: #424242;
+  font-size: 2em;
+  font-weight: bold;
+  left: 53px;
+  top: 350px;
+}
 body {
 	margin: 0;
 	font-family: arial, helvetica, sans-serif;
