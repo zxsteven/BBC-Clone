@@ -80,20 +80,22 @@
 }
 
 #news {
-	height: 350px;
-	width: 620px;
-	padding-left: 50px;
+	float: left;
 	position: relative;
 	top: -10px;
+	left: 12px;
 }
 
-#overtext {
-  position: absolute;
-  color: #424242;
-  font-size: 2em;
-  font-weight: bold;
-  left: 53px;
-  top: 350px;
+#none li {
+	list-style: none;
+}
+#side {
+	float: left;
+	margin: -10px -15px 15px 28px;
+}
+
+#well {
+	background-color: #e7e8e1;
 }
 body {
 	margin: 0;
